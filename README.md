@@ -1,0 +1,6 @@
+- 👋 Hi, I’m @klaasvm
+- 👀 I’m interested in gaming, discord, coding
+- 🌱 I’m currently learning how to make a discord bot
+- 📫 How to reach me on discord: ytklaas
+- 😄 Pronouns: he/him
+- ⚡ Fun fact: I love to be with friends
