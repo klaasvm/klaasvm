@@ -1,7 +1,7 @@
 ## Hello World 👋, I'm klaasvm
 A passionate developer from Belgium 🍟
 
-- 🔭 I’m currently working on [Clair (school project](clair.klaasvm.com)
+- 🔭 I’m currently working on [Clair (school project)]()
 - 🌱 I’m currently learning **Flutter and Dart**
 - 👨‍💻 All of my projects are available at [My Repositories](https://github.com/klaasvm?tab=repositories)
 - ⚡ Fun fact: **I'm so creative, even my ideas have ideas!💡**
