@@ -1,10 +1,5 @@
 ## Hello World 👋, I'm klaasvm
-A passionate developer from Belgium 🍟
 
-- 🔭 I’m currently working on [Clair (school project)]()
-- 🌱 I’m currently learning **Flutter, Dart, HTML, CSS and Javascript**
-- 👨‍💻 All of my projects are available at [My Repositories](https://github.com/klaasvm?tab=repositories)
-- ⚡ Fun fact: **I also love gaming**
 
 ## 🚀 Languages and Tools I Use
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="42" height="42" /></a>
