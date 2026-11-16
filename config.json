@@ -1,0 +1,15 @@
+{
+  "username": "klaasvm",
+  "maxPlanets": 12,
+  "pin": [],
+  "privateInclude": ["everythingyouneed", "claude-skills"],
+  "exclude": ["my-side-quests-eyn", "my-game-profile-eyn", "my-study-eyn", "blog-albanie-26"],
+  "hideCommits": [],
+  "links": [
+    ["chiro-blanden", "chiro-blanden-verhuur-api"],
+    ["everythingyouneed-releases", "everythingyouneed"],
+    ["everythingyouneed", "chiro-blanden"]
+  ],
+  "satelliteDays": 2,
+  "flareCommits": 15
+}

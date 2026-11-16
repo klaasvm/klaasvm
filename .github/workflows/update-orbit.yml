@@ -1,0 +1,59 @@
+name: Update orbit
+
+on:
+  schedule:
+    - cron: "23 4 * * *" # every day, 04:23 UTC
+  workflow_dispatch: # "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "config.json"
+      - "planets/**"
+      - ".github/workflows/update-orbit.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-orbit
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install ImageMagick (shrinks planet images)
+        if: hashFiles('planets/*.png', 'planets/*.jpg', 'planets/*.jpeg', 'planets/*.webp') != ''
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
+
+      - name: Test renderer
+        run: npm test
+
+      - name: Build orbit from live GitHub data
+        run: npm run build
+        env:
+          # ORBIT_TOKEN: personal access token that can read your private repos.
+          # Only needed for repos listed in privateInclude in config.json;
+          # without it the build falls back to public repos only.
+          ORBIT_TOKEN: ${{ secrets.ORBIT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain assets data/milestones.json)" ]; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets data/milestones.json
+          git commit -m "chore: refresh orbit"
+          git push

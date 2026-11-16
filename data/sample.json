@@ -1,0 +1,272 @@
+{
+  "user": {
+    "login": "klaasvm",
+    "followers": 12,
+    "createdAt": "2021-03-02T10:00:00Z",
+    "contributions": 842,
+    "commits24h": 18,
+    "recentWeeks": [
+      [
+        {
+          "date": "2026-11-02",
+          "count": 0,
+          "level": "NONE"
+        },
+        {
+          "date": "2026-11-03",
+          "count": 2,
+          "level": "FIRST_QUARTILE"
+        },
+        {
+          "date": "2026-11-04",
+          "count": 5,
+          "level": "SECOND_QUARTILE"
+        },
+        {
+          "date": "2026-11-05",
+          "count": 1,
+          "level": "FIRST_QUARTILE"
+        },
+        {
+          "date": "2026-11-06",
+          "count": 0,
+          "level": "NONE"
+        },
+        {
+          "date": "2026-11-07",
+          "count": 9,
+          "level": "THIRD_QUARTILE"
+        },
+        {
+          "date": "2026-11-08",
+          "count": 3,
+          "level": "SECOND_QUARTILE"
+        }
+      ],
+      [
+        {
+          "date": "2026-11-09",
+          "count": 4,
+          "level": "SECOND_QUARTILE"
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0,
+          "level": "NONE"
+        },
+        {
+          "date": "2026-11-11",
+          "count": 7,
+          "level": "THIRD_QUARTILE"
+        },
+        {
+          "date": "2026-11-12",
+          "count": 12,
+          "level": "FOURTH_QUARTILE"
+        },
+        {
+          "date": "2026-11-13",
+          "count": 2,
+          "level": "FIRST_QUARTILE"
+        }
+      ]
+    ]
+  },
+  "lastCommit": {
+    "repo": "everythingyouneed",
+    "message": "feat: dark mode for the tool pages"
+  },
+  "repos": [
+    {
+      "name": "everythingyouneed",
+      "language": "JavaScript",
+      "stars": 9,
+      "forks": 1,
+      "size": 5400,
+      "openIssues": 3,
+      "releases": 4,
+      "pushedAt": "2026-11-16T18:20:00Z",
+      "pages": true,
+      "contributors": [
+        {
+          "login": "octocat",
+          "avatarUrl": null,
+          "contributions": 21
+        }
+      ],
+      "ci": "success"
+    },
+    {
+      "name": "secret-client-site",
+      "private": true,
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 3100,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2026-11-14T21:00:00Z"
+    },
+    {
+      "name": "side-quests",
+      "language": "HTML",
+      "stars": 4,
+      "forks": 0,
+      "size": 1800,
+      "openIssues": 1,
+      "releases": 0,
+      "pushedAt": "2026-11-12T09:00:00Z",
+      "pages": true,
+      "ci": "failure"
+    },
+    {
+      "name": "time-tool",
+      "language": "JavaScript",
+      "stars": 2,
+      "forks": 0,
+      "size": 900,
+      "openIssues": 0,
+      "releases": 1,
+      "pushedAt": "2026-10-30T16:45:00Z"
+    },
+    {
+      "name": "kdenlive-presets",
+      "language": "Shell",
+      "stars": 14,
+      "forks": 3,
+      "size": 320,
+      "openIssues": 2,
+      "releases": 3,
+      "pushedAt": "2026-10-21T12:10:00Z",
+      "contributors": [
+        {
+          "login": "monalisa",
+          "avatarUrl": null,
+          "contributions": 5
+        }
+      ],
+      "ci": "running",
+      "latestRelease": {
+        "tag": "v2.1",
+        "at": "2026-11-14T12:00:00Z"
+      }
+    },
+    {
+      "name": "dotfiles",
+      "language": "Lua",
+      "stars": 1,
+      "forks": 0,
+      "size": 240,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2026-09-30T08:00:00Z"
+    },
+    {
+      "name": "arch-notes",
+      "language": "Shell",
+      "stars": 0,
+      "forks": 0,
+      "size": 80,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2026-09-02T20:00:00Z"
+    },
+    {
+      "name": "chiroblanden",
+      "language": "CSS",
+      "stars": 3,
+      "forks": 0,
+      "size": 2600,
+      "openIssues": 1,
+      "releases": 0,
+      "pushedAt": "2026-08-14T11:30:00Z",
+      "pages": true
+    },
+    {
+      "name": "snippets",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 150,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2026-04-01T10:00:00Z"
+    },
+    {
+      "name": "advent-of-code",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "size": 420,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2025-12-25T09:00:00Z"
+    },
+    {
+      "name": "blender-scripts",
+      "language": "Python",
+      "stars": 2,
+      "forks": 0,
+      "size": 610,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2025-09-11T14:00:00Z"
+    },
+    {
+      "name": "old-portfolio",
+      "language": "HTML",
+      "stars": 1,
+      "forks": 0,
+      "size": 9800,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2025-03-04T19:00:00Z"
+    },
+    {
+      "name": "discord-bot",
+      "language": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "size": 230,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2024-11-20T17:00:00Z"
+    },
+    {
+      "name": "klaasvm",
+      "language": null,
+      "stars": 0,
+      "forks": 0,
+      "size": 90,
+      "openIssues": 0,
+      "releases": 0,
+      "pushedAt": "2026-11-16T20:00:00Z"
+    }
+  ],
+  "recentStars": [
+    {
+      "login": "octocat",
+      "repo": "kdenlive-presets",
+      "at": "2026-11-15T10:00:00Z"
+    },
+    {
+      "login": "monalisa",
+      "repo": "everythingyouneed",
+      "at": "2026-11-13T10:00:00Z"
+    }
+  ],
+  "milestones": [
+    {
+      "metric": "stars",
+      "value": 25,
+      "at": "2026-11-15T04:23:00Z",
+      "label": "25 stars"
+    },
+    {
+      "metric": "contributors",
+      "value": 3,
+      "at": "2026-11-14T04:23:00Z",
+      "label": "3 contributors"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "klaasvm-profile",
+  "private": true,
+  "type": "module",
+  "description": "Profile README for klaasvm: a live 3D orbit of my repos, rebuilt by GitHub Actions.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:sample": "node scripts/build.mjs --sample",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
